@@ -11,7 +11,7 @@ const App: React.FC = () => {
   const handleAdd = (e: React.FormEvent) => {
     e.preventDefault();
     if(taskName){
-      setTasks([...tasks, {taskName, id: Date.now(), isDone: true}]);
+      setTasks([...tasks, {taskName, id: Date.now(), isDone: false}]);
       setTaskName("")
     }
   }

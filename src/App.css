@@ -65,12 +65,17 @@
   transition: 0.2s all;
   box-shadow: 0 0 10px black;
 }
+ .icon.done{
+  position: absolute;
+  margin-right: 5px;
+  right: 0px;
+  border: none;
+  transition: 0.2s all;
+ }
+
 
 .input_submit:hover {
   background-color: #388ae2;
-}
-
-.input_submit:active {
   transform: scale(0.8);
   box-shadow: 0 0 5px black;
 }
